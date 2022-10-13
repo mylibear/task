@@ -1,0 +1,141 @@
+@font-face {
+  font-family: pixelart;
+  src: url('../../font/VT323-Regular.ttf');
+}
+
+.featured {
+    font-family: "pixelart";
+}
+
+.featured h1 {
+  font-size: 40px;
+}
+
+.teamList {
+    display: block;
+    border-radius: 10px;
+    padding: 0.9rem 0.9rem;
+    margin: 0.5rem 0;
+    width: 80%;
+}
+
+.detail {
+    display: block;
+    border-radius: 10px;
+    padding: 0.9rem 0.9rem;
+    margin: 0.5rem 0;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 350px;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+    border: 2px solid black;
+}
+
+.memberTable {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    font-size: 20px;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 22px;
+  }
+  input{
+    font-size: small;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+    white-space: nowrap;
+  }
+  
+ td {
+    background-color: rgb(205, 235, 253);
+  }
+  
+ form {
+    display: flex;
+    gap: 5px;
+  }
+  
+   form td:last-child {
+    display: flex;
+  }
+  
+  /* form * {
+    font-size: 20px;
+  } */
+
+  .addMember {
+    transform: translateX(20%);
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "pixelart";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .addMember:hover,
+  .addMember:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+  }
+  
+  .addMember:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .addMember:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+  }
+
+#closeButton {
+    top: 25px;
+    left: 250px;
+    position: inherit;
+}
+  

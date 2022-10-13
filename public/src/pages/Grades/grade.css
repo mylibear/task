@@ -1,0 +1,9 @@
+th, td {
+    font-size: 18px;
+  }
+
+  .grades{
+    width: 100%;
+
+    padding: 5%;
+  }

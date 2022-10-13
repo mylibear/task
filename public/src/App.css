@@ -1,0 +1,24 @@
+
+
+.container{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+ 
+}
+
+
+
+.MainPage{
+  flex: 6;
+  background-color: #a3dbed;
+  font-family: "pixelart";
+  
+}
+
+.content{
+  flex:none;
+  width: 70%;
+  margin-right: 3%; 
+}

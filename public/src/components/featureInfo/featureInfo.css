@@ -1,0 +1,119 @@
+.featured{
+    width: 100%;
+    display: wrap;
+}
+
+.projectOverview{
+    flex: 1;
+    background-color: #d5eef6;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0);
+}
+
+.editProject{
+    margin-left: 30px;
+}
+
+.overview{
+    font-size: 20px;
+}
+
+.projectDescrition{
+    font-size: 16px;
+}
+
+.featuredItem{
+    flex: 1;
+    background-color: #d5eef6;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0);
+}
+
+.featuredTitle{
+    font-size: 20px;
+}
+
+.projectContainer{
+    margin: 10px, 0px;
+    display: flex;
+    align-items: center;
+}
+
+.projectFeature{
+    margin-top: 10px;
+}
+
+.mileStone{
+    margin-top: 10px;
+}
+
+.projectDetail{
+    margin: 10px, 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d5eef6;
+}
+
+.weeklyTask{
+    overflow-y: auto;
+    height: 150px;
+    width:100%;
+    background-color: #d5eef6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0);
+}
+
+.taskDetails{
+    justify-content: space-between;
+    display: flex;
+    margin: 10px, 10px;
+    padding: 10px;
+    
+}
+
+.taskList{
+    list-style: none;
+}
+
+.assignedMember{
+    list-style: none;
+}
+
+.deadline{
+    list-style: none;
+}
+
+.milestone{
+    overflow: auto;
+    height: 300px;
+    background-color: #d5eef6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0);
+}
+
+.workload{
+    overflow: auto;
+    height: 300px;
+    background-color: #d5eef6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 14px 9px 6px 6px rgba(0,0,0,0);
+}
